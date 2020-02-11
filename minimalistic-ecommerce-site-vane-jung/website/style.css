@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  padding-left: 5.7rem;
+  padding-right: 5.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  height: 7.1rem;
+  background-color: #dfd7d7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__align--list {
+  list-style: none;
+  width: 23.2rem;
+  padding-left: 4.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__align1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__align1--list {
+  list-style: none;
+  width: 10.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-a {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  color: #22232B;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header-a:hover {
+  background-color: #f5f5f5;
+  padding: .5rem;
+  -webkit-transform: scale(-0.5rem);
+          transform: scale(-0.5rem);
+  border-radius: 3px;
+}
+
+.icon-header {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.pegination {
+  width: 72.2rem;
+  height: 4.2rem;
+  background-color: #dfd7d7;
+  margin-top: 6.8rem;
+}
+
+.pegination__align {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (4.2rem)[11];
+      grid-template-columns: repeat(11, 4.2rem);
+  -ms-grid-rows: 4.2rem;
+      grid-template-rows: 4.2rem;
+  grid-gap: 2.6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.peg-a {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #22232B;
+}
+
+.peg-a:hover {
+  background-color: #22232B;
+  color: #ffffff;
+}
+
+.peg-default {
+  background-color: #22232B;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

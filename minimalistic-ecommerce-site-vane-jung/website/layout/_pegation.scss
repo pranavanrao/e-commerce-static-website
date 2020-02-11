@@ -1,0 +1,71 @@
+// .pegination {
+//     width: 72.2rem;
+//     height: 4.2rem;
+//     background-color: #dfd7d7;
+//     margin-top: 6.8rem;
+
+//     display: flex;
+//     align-items: center;
+
+//     &__align {
+//         width: 100%;
+
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+        
+//     }
+// }
+
+// .pegination__align li {
+//     position: relative;
+//     padding: 1.6rem;
+//     padding-bottom: 1.5rem;
+
+//     &:hover {
+//         background-color: $font-header;
+//         a{
+//             color: $white;
+//         }
+//     }
+// }
+
+// .pad {
+//     background-color: $font-header;
+    
+//     a{
+//         color: $white;
+//     }
+// }
+
+.pegination {
+    width: 72.2rem;
+    height: 4.2rem;
+    background-color: #dfd7d7;
+    margin-top: 6.8rem;
+
+    &__align {
+        display: grid;
+        grid-template-columns: repeat(11, 4.2rem);
+        grid-template-rows: 4.2rem;
+        grid-gap: 2.6rem;
+        justify-content: center;
+    }
+}
+
+.peg-a {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: $font-header;
+
+    &:hover {
+        background-color: $font-header;
+        color: $white;
+    }
+}
+
+.peg-default {
+    background-color: $font-header;
+    color: $white;
+}

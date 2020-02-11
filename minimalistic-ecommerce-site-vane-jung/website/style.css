@@ -141,4 +141,143 @@ ul {
   background-color: #22232B;
   color: #ffffff;
 }
+
+.content {
+  margin-top: 6.8rem;
+  background-color: yellow;
+}
+
+.content .images {
+  position: absolute;
+  width: 100%;
+}
+
+.content .zindex {
+  position: absolute;
+  width: 19.1rem;
+  height: 12.6rem;
+  left: 0rem;
+  top: 21rem;
+  background-color: #ffffff;
+}
+
+.content__align {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (30rem)[4];
+      grid-template-columns: repeat(4, 30rem);
+  -ms-grid-rows: (34.2rem)[2];
+      grid-template-rows: repeat(2, 34.2rem);
+  grid-gap: 4.2rem;
+}
+
+.content__align--1 .filter .down-arrow {
+  width: 8px;
+  height: 4px;
+  margin-right: 1.1rem;
+  margin-top: 0.9rem;
+}
+
+.content__align--1 .filter__1 {
+  margin-top: 4.4rem;
+  height: 3.5rem;
+  margin-bottom: 2.6rem;
+}
+
+.content__align--1 .filter__2 {
+  height: 3.5rem;
+  margin-bottom: 2.6rem;
+}
+
+.content__align--1 .filter__3 {
+  height: 3.5rem;
+  margin-bottom: 2.6rem;
+}
+
+.content__align--1 .filter__4 {
+  height: 9.9rem;
+}
+
+.content__align--1 .filter__4 .range-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.8rem;
+}
+
+.content__align--1 .filter__4 .range-bar .range-line {
+  width: 100%;
+  margin-bottom: .75rem;
+  border-bottom: 2px solid rgba(27, 27, 27, 0.1);
+}
+
+.content__align--1 .filter__4 .range-bar .knob {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.content__align--1 .filter__4 .price-range {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+.content__align--1 .filter > *:not(:last-child) {
+  border-bottom: 2px solid rgba(27, 27, 27, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__align > * {
+  position: relative;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../font/AvenirLTStd-Book.otf);
+}
+
+.filter-by {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #22232B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.filter-cat {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #22232B;
+}
+
+.price-sort {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #22232B;
+}
 /*# sourceMappingURL=style.css.map */

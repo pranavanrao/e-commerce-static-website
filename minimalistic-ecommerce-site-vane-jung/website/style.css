@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  width: 100%;
   padding-left: 5.7rem;
   padding-right: 5.7rem;
 }
@@ -25,7 +24,7 @@ ul {
 
 .header {
   height: 7.1rem;
-  background-color: #dfd7d7;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,7 +102,7 @@ ul {
 .pegination {
   width: 72.2rem;
   height: 4.2rem;
-  background-color: #dfd7d7;
+  background-color: #ffffff;
   margin-top: 6.8rem;
 }
 
@@ -144,7 +143,6 @@ ul {
 
 .content {
   margin-top: 6.8rem;
-  background-color: yellow;
 }
 
 .content .images {
@@ -157,18 +155,44 @@ ul {
   width: 19.1rem;
   height: 12.6rem;
   left: 0rem;
-  top: 21rem;
+  top: 21.6rem;
   background-color: #ffffff;
+}
+
+.content .ht-align {
+  margin-top: 3.3rem;
+}
+
+.content .align-txt {
+  margin-top: .8rem;
+}
+
+.content .ratings {
+  margin-top: 3.3rem;
+}
+
+.content .align-right {
+  position: absolute;
+  top: 27.3rem;
+  right: 0;
+}
+
+.content .align-img-right {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  right: 0;
+  top: 31.2rem;
 }
 
 .content__align {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (30rem)[4];
-      grid-template-columns: repeat(4, 30rem);
-  -ms-grid-rows: (34.2rem)[2];
-      grid-template-rows: repeat(2, 34.2rem);
-  grid-gap: 4.2rem;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-gap: 4rem;
 }
 
 .content__align--1 .filter .down-arrow {
@@ -275,9 +299,76 @@ ul {
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   /* identical to box height */
   color: #22232B;
+}
+
+.img-cat {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  color: #22232B;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* STYLES GO HERE */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  /* STYLES GO HERE */
 }
 /*# sourceMappingURL=style.css.map */

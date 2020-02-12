@@ -1,6 +1,6 @@
 .content {
     margin-top: 6.8rem;
-    background-color: yellow;
+    // background-color: yellow;
 
     .images {
         position: absolute;
@@ -13,15 +13,41 @@
         height: 12.6rem;
         left: 0rem;
         //bottom: 0rem;
-        top: 21rem;
+        top: 21.6rem;
         background-color: $white;
+    }
+
+    .ht-align {
+        margin-top: 3.3rem;
+    }
+
+    .align-txt {
+        margin-top: .8rem;
+    }
+
+    .ratings {
+        margin-top: 3.3rem;
+    }
+
+    .align-right {
+        position: absolute;
+        top: 27.3rem;
+        right: 0;
+    }
+
+    .align-img-right {
+        position: absolute;
+        width: 2.4rem;
+        height: 2.4rem;
+        right: 0;
+        top: 31.2rem;
     }
 
     &__align {
         display: grid;
-        grid-template-columns: repeat(4, 30rem);
-        grid-template-rows: repeat(2, 34.2rem);
-        grid-gap: 4.2rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 4rem;
 
         &--1 {
 
@@ -88,10 +114,6 @@
                     }     
                 }
             }
-
-        }
-
-        &--2 {
 
         }
                     

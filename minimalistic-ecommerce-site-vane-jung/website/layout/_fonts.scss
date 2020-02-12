@@ -32,8 +32,20 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
     /* identical to box height */
     color: #22232B;
+}
+
+.img-cat {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    color: #22232B;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }

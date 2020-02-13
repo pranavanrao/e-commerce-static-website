@@ -1,0 +1,42 @@
+.menu-body {
+    background-color: $blackish;
+    width: inherit;
+    height: inherit;
+
+    .menu-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+
+        .menu-align {
+            width: 10rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu-icons {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+
+    .menu-drop {
+        padding-left: 2rem;
+        height: 40rem;
+        width: 100%;
+        position: absolute;
+        // background-color: red;
+        top: 10rem;
+        .menu-text {
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+}

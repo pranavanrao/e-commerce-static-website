@@ -1,15 +1,17 @@
 .header {
-    // width: 100%;
+    width: 100%;
     height: 7.1rem;
-    background-color: $white;
-    
+    background-color: $test-color;    
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+
     &__align {
         display: flex;
+        width: inherit;
 
         &--list {
             list-style: none;
@@ -19,11 +21,17 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
         }
     }
-
+    
     &__align1 {
         display: flex;
+        // position: absolute;
+
+        // top: 0;
+        // right: 0;
+
 
         &--list {
             list-style: none;
@@ -43,17 +51,71 @@
     font-size: 1.3rem;
     color: $font-header;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: all 0.5s;
 
     &:hover {
-        background-color:#f5f5f5;
-        padding: .5rem;
-        transform: scale(-0.5rem);
-        border-radius: 3px;
+        transform: scale(1.1);
     }
 }
 
 .icon-header {
     height: 2.4rem;
     width: 2.4rem;
+}
+
+.menu {
+    width: 4rem;
+    height: 4rem;
+    visibility: hidden;
+    display: none;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* STYLES GO HERE */
+
+.header {
+    // width: inherit;
+    height: 7.1rem;
+    // background-color: $test-color;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__align {
+        display: flex;
+    }
+    
+    &__align1 {
+        width: 20rem;
+        display: flex;
+        position: absolute;
+        right: 0;
+        top:2rem;
+        justify-content: space-between;
+    }
+}
+
+.invisible-a {
+    visibility: hidden;
+    display: none;
+}
+
+.icon-header {
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    right: 10rem;
+}
+
+.menu {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
 }

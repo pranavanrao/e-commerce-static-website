@@ -39,16 +39,17 @@
 // }
 
 .pegination {
-    width: 72.2rem;
+    width: 68.5rem;
     height: 4.2rem;
-    background-color: $white;
+    // background-color: $test-color;
     margin-top: 6.8rem;
+    margin-bottom: 10rem;
 
     &__align {
         display: grid;
-        grid-template-columns: repeat(11, 4.2rem);
+        grid-template-columns: repeat(11, 1fr);
         grid-template-rows: 4.2rem;
-        grid-gap: 2.6rem;
+        grid-gap: 2.46rem;
         justify-content: center;
     }
 }
@@ -69,3 +70,13 @@
     background-color: $font-header;
     color: $white;
 }
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    /* STYLES GO HERE */
+     .pegination {
+            visibility: hidden;
+            width: inherit;
+     }   
+    }
